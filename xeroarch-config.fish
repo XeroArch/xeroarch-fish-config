@@ -5,7 +5,7 @@ source /usr/share/xeroarch-fish-config/conf.d/done.fish
 ## Set values
 ## Run fastfetch as welcome message
 function fish_greeting
-    fastfetch
+    fastfetch --logo /usr/share/icons/hicolor/xeroarch-custom-icons/shell-icons/xeroarch-fetch.png
 end
 
 # Format man pages
